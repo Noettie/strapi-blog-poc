@@ -1,6 +1,6 @@
 import { BlogPost, StrapiResponse } from './types';
 
-const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://34.207.91.176:1337';
+const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://13.222.245.19:1337';
 
 export function getStrapiURL(path: string = ''): string {
   return `${STRAPI_URL}${path}`;
